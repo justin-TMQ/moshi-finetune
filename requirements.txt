@@ -1,0 +1,8 @@
+moshi
+safetensors
+torch
+torchaudio
+huggingface_hub
+scipy 
+soundfile 
+librosa
