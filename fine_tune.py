@@ -39,7 +39,7 @@ def main():
     moshi.train()
 
     # Load and prepare audio data
-    audio = load_and_prepare_audio("path/to/your/audio.wav").to(device)
+    audio = load_and_prepare_audio("fine-tune.wav").to(device)
 
     # Encode audio using Mimi
     with torch.no_grad():
